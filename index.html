@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>개인정보처리방침 · 한식 레시피 (Korean Recipes)</title>
+<style>
+  :root {
+    --bg: #FFF8F2;
+    --surface: #FFFFFF;
+    --text: #2E2622;
+    --muted: #7A6C64;
+    --accent: #C0391A;
+    --line: #EADFD6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1A1614;
+      --surface: #241E1B;
+      --text: #F0E7E1;
+      --muted: #A2938B;
+      --accent: #F08A6C;
+      --line: #3A302B;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 20px 80px;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo",
+                 "Noto Sans KR", Roboto, sans-serif;
+    line-height: 1.75;
+    font-size: 16px;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  header { padding: 48px 0 8px; }
+  h1 { font-size: 1.75rem; font-weight: 800; margin: 0 0 4px; letter-spacing: -0.01em; }
+  h2 {
+    font-size: 1.15rem; font-weight: 700; margin: 40px 0 10px;
+    padding-top: 22px; border-top: 1px solid var(--line);
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+  .meta { color: var(--muted); font-size: 0.9rem; margin: 0 0 28px; }
+  .meta a { color: var(--accent); }
+  .lede {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 18px 20px;
+    margin: 0 0 8px;
+    font-weight: 600;
+  }
+  table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 0.95rem; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; white-space: nowrap; }
+  code {
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: 5px; padding: 1px 5px; font-size: 0.88em;
+  }
+  a { color: var(--accent); }
+  .switch { margin: 0 0 36px; font-size: 0.95rem; }
+  .switch a { text-decoration: none; font-weight: 600; }
+  footer {
+    margin-top: 56px; padding-top: 22px; border-top: 1px solid var(--line);
+    color: var(--muted); font-size: 0.85rem;
+  }
+  section[hidden] { display: none; }
+</style>
+</head>
+<body>
+<main>
+
+<section id="ko">
+  <header>
+    <h1>개인정보처리방침</h1>
+    <p class="meta">
+      한식 레시피 (Korean Recipes) · 시행일 2026년 8월 28일<br>
+      문의 <a href="mailto:mansj98@gmail.com">mansj98@gmail.com</a>
+    </p>
+  </header>
+  <p class="switch"><a href="#en">English ↓</a></p>
+
+  <p class="lede">이 앱은 개인정보를 일절 수집하지 않습니다. 서버로 아무것도 보내지 않으며,
+  애초에 인터넷 통신 권한 자체가 없습니다.</p>
+
+  <h2>1. 수집하는 개인정보</h2>
+  <p><strong>없습니다.</strong> 이 앱은 이름, 이메일, 전화번호, 위치, 연락처, 사진,
+  기기 식별자, 광고 ID를 비롯한 어떠한 개인정보도 수집하거나 전송하지 않습니다.
+  회원가입이나 로그인도 없습니다.</p>
+
+  <h2>2. 기기에 저장되는 정보</h2>
+  <p>앱을 쓰는 동안 아래 두 가지가 <strong>사용자 기기 안에만</strong> 저장됩니다.
+  외부로 전송되지 않고, 개발자를 포함한 누구도 열람할 수 없습니다.</p>
+  <table>
+    <tr><th>저장되는 것</th><th>목적</th></tr>
+    <tr><td>선택한 표시 언어</td><td>앱을 다시 열었을 때 같은 언어로 보여주기 위해</td></tr>
+    <tr><td>저장(즐겨찾기)한 레시피 목록</td><td>저장 탭에 다시 보여주기 위해</td></tr>
+  </table>
+  <p>두 정보 모두 앱을 삭제하면 기기에서 함께 지워집니다. 별도로 삭제를 요청하실 필요가
+  없으며, 개발자가 보관하는 사본도 존재하지 않습니다.</p>
+
+  <h2>3. 인터넷 통신</h2>
+  <p>이 앱은 <strong>인터넷 통신 권한(<code>android.permission.INTERNET</code>)을
+  요청하지 않습니다.</strong> 레시피 정보, 사진, 4개 국어 번역이 모두 앱 설치 파일 안에
+  들어 있어, 비행기 모드에서도 모든 기능이 그대로 동작합니다.</p>
+
+  <h2>4. 요청하는 권한</h2>
+  <table>
+    <tr><th>권한</th><th>쓰임</th></tr>
+    <tr>
+      <td><code>WAKE_LOCK</code><br>(절전 모드 방지)</td>
+      <td>레시피 상세 화면을 보는 동안 화면이 꺼지지 않게 합니다. 요리 중에는 손이 젖어 있어
+      화면을 다시 켜기 번거롭기 때문입니다. 다른 화면에서는 해제됩니다.</td>
+    </tr>
+  </table>
+  <p>이 앱은 위치, 카메라, 마이크, 연락처, 저장소, 광고 ID 권한을 요청하지 않습니다.</p>
+
+  <h2>5. 제3자 서비스</h2>
+  <p>현재 이 앱에는 <strong>동작 중인 제3자 분석·광고·추적 서비스가 없습니다.</strong></p>
+  <p>향후 광고를 도입할 경우를 대비해 Google AdMob 라이브러리가 설치 파일에 포함되어
+  있으나, <strong>비활성 상태로 초기화되지 않으며 광고 요청도 데이터 수집도 발생하지
+  않습니다.</strong> 관련 권한(광고 ID 등)도 모두 제거해 두었습니다.</p>
+  <p>광고를 실제로 도입하게 되면 이 방침을 먼저 개정하고, 앱 업데이트를 통해 변경 사항을
+  안내드립니다.</p>
+
+  <h2>6. 아동의 개인정보</h2>
+  <p>이 앱은 만 13세 미만 아동을 대상으로 하지 않으며, 애초에 어떤 사용자로부터도
+  개인정보를 수집하지 않으므로 아동의 개인정보를 보유하지 않습니다.</p>
+
+  <h2>7. 레시피 데이터 출처</h2>
+  <p>앱에 수록된 레시피 정보와 사진은 식품의약품안전처의 「조리식품의 레시피 DB」를
+  공공누리 제1유형(출처표시) 조건에 따라 이용한 것입니다. 영어·일본어·스페인어 번역은
+  개발자가 별도로 작성했습니다.</p>
+
+  <h2>8. 방침의 변경</h2>
+  <p>이 방침이 바뀌면 시행일을 갱신하고, 중요한 변경은 앱 업데이트 시 안내합니다.</p>
+
+  <h2>9. 문의</h2>
+  <p>개인정보 처리에 관해 궁금한 점이 있으시면
+  <a href="mailto:mansj98@gmail.com">mansj98@gmail.com</a>으로 연락해 주세요.</p>
+</section>
+
+<section id="en">
+  <header>
+    <h1>Privacy Policy</h1>
+    <p class="meta">
+      Korean Recipes (한식 레시피) · Effective 28 August 2026<br>
+      Contact <a href="mailto:mansj98@gmail.com">mansj98@gmail.com</a>
+    </p>
+  </header>
+  <p class="switch"><a href="#ko">↑ 한국어</a></p>
+
+  <p class="lede">This app collects no personal data. It sends nothing to any server, and it
+  does not even hold the permission needed to use the internet.</p>
+
+  <h2>1. Personal data we collect</h2>
+  <p><strong>None.</strong> The app does not collect or transmit your name, email, phone
+  number, location, contacts, photos, device identifiers, or advertising ID. There is no
+  account and no sign-in.</p>
+
+  <h2>2. What is stored on your device</h2>
+  <p>Two things are stored <strong>on your device only</strong> while you use the app.
+  Neither leaves the device, and no one — including the developer — can read them.</p>
+  <table>
+    <tr><th>Stored</th><th>Purpose</th></tr>
+    <tr><td>Your chosen display language</td><td>So the app opens in the same language next time</td></tr>
+    <tr><td>Your saved (bookmarked) recipes</td><td>So they appear in the Saved tab</td></tr>
+  </table>
+  <p>Both are deleted from your device when you uninstall the app. You do not need to
+  request deletion, and no copy is kept anywhere by the developer.</p>
+
+  <h2>3. Internet access</h2>
+  <p>The app <strong>does not request internet permission</strong>
+  (<code>android.permission.INTERNET</code>). All recipe text, photos, and translations in
+  four languages ship inside the installed app, so every feature works in airplane mode.</p>
+
+  <h2>4. Permissions requested</h2>
+  <table>
+    <tr><th>Permission</th><th>Why</th></tr>
+    <tr>
+      <td><code>WAKE_LOCK</code><br>(keep screen awake)</td>
+      <td>Keeps the screen on while you are viewing a recipe. Your hands are usually wet
+      while cooking, so having to wake the screen is a nuisance. It is released on every
+      other screen.</td>
+    </tr>
+  </table>
+  <p>The app does not request location, camera, microphone, contacts, storage, or
+  advertising ID permissions.</p>
+
+  <h2>5. Third-party services</h2>
+  <p>The app currently contains <strong>no active third-party analytics, advertising, or
+  tracking service.</strong></p>
+  <p>The Google AdMob library is bundled in the installed app in preparation for possible
+  future advertising, but it is <strong>disabled: it is never initialised, makes no ad
+  requests, and collects no data.</strong> The permissions it would normally add (including
+  the advertising ID) have been removed.</p>
+  <p>If advertising is ever introduced, this policy will be updated first and the change
+  will be communicated through an app update.</p>
+
+  <h2>6. Children's privacy</h2>
+  <p>This app is not directed at children under 13. Since it collects no personal data from
+  any user, it holds no data about children.</p>
+
+  <h2>7. Recipe data source</h2>
+  <p>Recipe text and photos come from the Korean Ministry of Food and Drug Safety's
+  "Cooked Food Recipe DB", used under the Korea Open Government License Type 1
+  (attribution). The English, Japanese, and Spanish translations were written separately by
+  the developer.</p>
+
+  <h2>8. Changes to this policy</h2>
+  <p>If this policy changes, the effective date will be updated and material changes will be
+  communicated with an app update.</p>
+
+  <h2>9. Contact</h2>
+  <p>If you have any question about how your data is handled, please get in touch at
+  <a href="mailto:mansj98@gmail.com">mansj98@gmail.com</a>.</p>
+</section>
+
+<footer>
+  한식 레시피 (Korean Recipes) · 개인정보처리방침 / Privacy Policy
+</footer>
+
+</main>
+</body>
+</html>
