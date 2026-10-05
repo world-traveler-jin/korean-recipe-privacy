@@ -1,0 +1,27 @@
+# 이 저장소는 **공개**이고 GitHub Pages 로 그대로 서빙된다.
+# 여기 커밋된 것은 전부 누구나 받아갈 수 있다. 자격증명이 실수로 들어오면
+# 되돌릴 수 없으므로(이력에 남고 이미 받아간 사람이 있을 수 있다) 패턴으로 막는다.
+
+# ── 애플 서명 자산 ──
+# `*.key` 는 이것들을 하나도 매치하지 않는다. 이름이 달라서 따로 적어야 한다.
+*.p8
+*.p12
+*.mobileprovision
+*.cer
+*.certSigningRequest
+
+# ── 안드로이드 서명 키 ──
+*.jks
+*.keystore
+key.properties
+
+# ── 그 밖의 비밀 ──
+.env
+.env.*
+*.key
+*.pem
+service-account*.json
+credentials*.json
+
+# ── 실수로 올라가기 쉬운 것 ──
+.DS_Store
