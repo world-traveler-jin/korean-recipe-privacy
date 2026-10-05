@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "version": "1.0.0+742829e5",
+  "url": "recipes-1.0.0-742829e5.json",
+  "sizeBytes": 9505482,
+  "sha256": "ebcde41d11be636735c0469834d40b7ef9c34e8f848972fb78bad5ba1b395003",
+  "recipeCount": 1176,
+  "publishedAt": "2026-10-06",
+  "minAppBuild": 0,
+  "notes": {
+    "ko": "레시피 34개를 더했습니다",
+    "en": "Added 34 recipes"
+  }
+}
